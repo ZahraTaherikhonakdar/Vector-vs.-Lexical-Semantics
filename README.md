@@ -2,11 +2,11 @@
 
 # Overview 
 
-To run this code, execute the [main.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/main.py) in the project main root directory.
+To run this code, execute the [main.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/main.py) in project main root directory.
 
 **Codebases:**
 
- [src/](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/src) : This folder Contains code files for evaluation, creat gold list, and preprocessing data.
+ [src/](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/src) : This folder Contains code files for evaluation, creat gold list, preprocessing data.
  
 ```
 +---src
@@ -17,9 +17,10 @@ To run this code, execute the [main.py](https://github.com/ZahraTaherikhonakdar/
 |   |     evaluation_tf_idf.py
 |   |     pytrec_eval_per_word.py
 |   |     pytrec_eval_perword_tfidf.py
+|   |     pytrec_avg.py
 
 ```
-[models/train_w2v.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/models/train_w2v.py): It Ttrains the word to vector models.
+[models/train_w2v.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/models/train_w2v.py): Trains the word to vector models.
 
 ```
 +---models
@@ -102,5 +103,19 @@ The target folders are the outputs for the models, gold standard datasets, and c
 |   |       +---brown_news
 |   |   |   |    +---pytrec_result_perword
 |   |   |   |    |       pytrec_(word).json
+
+```
+
+[output/avg](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/avg) : Contains average nDCG results of each baseline train on two selected corpus. 
+
+```
++---output
+|   +---avg
+|   |   +---tfidf     
+|   |   |   ndcg_avg_brown_editorial.json
+|   |   |   ndcg_avg_brown_news.json
+|   |   +---w2v 
+|   |   |   ndcg_avg_brown_editorial.json
+|   |   |   ndcg_avg_brown_news.json
 
 ```
