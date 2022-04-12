@@ -45,7 +45,7 @@ The target folders are the outputs for the models, gold standard datasets, and c
 |   |     gold_list.json
 
 ```
-[output/cosine_similarity](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/cosine_similarity): This is the out put for cosine similarity for words based on word to vector and td_idf models. ``` brown_news ```,``` brown_editorial ``` folders in each ``` w2v ``` and ``` tfidf ``` folder contain the results for word_to_vectors model which is trained with [brown](https://www.nltk.org/book/ch02.html) corpus news and ditorial genres respectively. Here is the sample results for [tfidf/brown_editorial](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/cosine_similarity/tfidf/brown_editorial) and [w2v/brown_editorial](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/cosine_similarity/w2v/brown_editorial).
+[output/cosine_similarity](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/cosine_similarity): This is the out put for **top_k** cosine similarity for words based on word to vector and td_idf models. ``` brown_news ```,``` brown_editorial ``` folders in each ``` w2v ``` and ``` tfidf ``` folder contain the results for word_to_vectors model which is trained with [brown](https://www.nltk.org/book/ch02.html) corpus news and ditorial genres respectively. Here is the sample results for [tfidf/brown_editorial](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/cosine_similarity/tfidf/brown_editorial) and [w2v/brown_editorial](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/output/cosine_similarity/w2v/brown_editorial).
 
 ```
 +---output
