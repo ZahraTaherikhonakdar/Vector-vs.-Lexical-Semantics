@@ -2,7 +2,7 @@
 
 # Overview 
 
-To run this code, execute the [main.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/main.py) in main root directory.
+To run this code, execute the [main.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/main.py) in project main root directory.
 
 **Codebases:**
 
@@ -37,7 +37,7 @@ To run this code, execute the [main.py](https://github.com/ZahraTaherikhonakdar/
 **Target Folders:**
 The target folders are the outputs for the models, gold standard datasets, and cosine similarity and nDCG metric.
 
-[evaluation/gold_list](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/evaluation/gold_list) : This is the output for the ``` gold() ``` function in [main.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/main.py) in main root directory. It includes golden answers for each word in our golden standards [SimLex-9991](https://fh295.github.io/simlex.html) data set.
+[evaluation/gold_list](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/tree/main/evaluation/gold_list) : This is the output for the ``` gold() ``` function in [main.py](https://github.com/ZahraTaherikhonakdar/Vector-vs.-Lexical-Semantics/blob/main/main.py) in project main root directory. It includes golden answers for each word in our golden standards [SimLex-9991](https://fh295.github.io/simlex.html) data set.
 
 ```
 +---evaluation
