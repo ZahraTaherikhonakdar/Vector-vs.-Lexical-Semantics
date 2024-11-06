@@ -1,5 +1,4 @@
 # Vector-vs.-Lexical-Semantics
-![type-aware flow](https://github.com/user-attachments/assets/b9ce8c0b-3b15-4813-9e94-53ef0eac5c4c)
 
 # Overview 
 
